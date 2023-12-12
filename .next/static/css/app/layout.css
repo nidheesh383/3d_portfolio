@@ -929,6 +929,14 @@ html {
 
 
 
+@media (min-width: 640px){
+  .sm\:inline{
+    display: inline;
+  }
+}
+
+
+
 @media (min-width: 768px){
   .md\:mr-20{
     margin-right: 5rem;

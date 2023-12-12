@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 hidden sm:inline">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About me
@@ -48,8 +48,8 @@ const Navbar = () => {
                   ? "https://wa.me/919894551645"
                   : "https://www.linkedin.com/in/nidheesh-kumar/"
               }
-              target="_blank" 
-              rel="noopener noreferrer" 
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Image
                 src={social.src}
